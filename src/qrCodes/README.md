@@ -47,3 +47,8 @@
     - mac `GOOS=darwin GOARCH=amd64 go build -ldflags "-w -s" ./main.go`
 + 使用upx加壳
     - `upx --backup --brute [main.exe(windows) or main(linux、mac)]`
+
+#### 感谢(Thinks)
+`感谢两位作者提供的源码，没有他们的帮助是无法整合次项目的，同时也感谢他们给予开源世界的无私奉献！`
++ [lomoalbert](https://github.com/lomoalbert)
++ [skip2](https://github.com/skip2)
