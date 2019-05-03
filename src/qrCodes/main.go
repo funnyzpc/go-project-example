@@ -40,7 +40,7 @@ func ReadQrCode(writer http.ResponseWriter, request *http.Request) {
 	//判断请求方式
 	if request.Method == "POST" {
 		//设置内存大小
-		request.ParseMultipartForm(32 << 20)
+		request.ParseMultipartForm(64 << 20)
 		//获取上传的第一个文件
 		file, _, _ := request.FormFile("qrFile")
 		// 读取文件
